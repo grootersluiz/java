@@ -46,7 +46,7 @@ public class Principal {
 				System.out.print("Digite o número da conta: ");
 				numero = in.nextInt();
 				
-				c1= lc.get(numero-1);
+				c1 = lc.get(numero-1);
 				System.out.print("Digite o valor do depósito: ");
 				valor = in.nextDouble();
 				c1.Deposito(valor);
